@@ -1,0 +1,19 @@
+title: Setting HUD Layout FFXIV
+description: >-
+  Aku sengaja membuat halaman ini untuk berbagi cara setting HUD layout dari
+  game FFXIV online, aku sendiri menggunakan controller saat bermain game ini.
+  Berikut best practice untuk mengatur HUD layout versiku. 
+template:
+  repo: setting-hud-layout-ffxiv-template
+  name: setting-hud-layout-ffxiv
+before:
+  - type: createIssue
+    title: Welcome!
+    body: new-issue.md
+steps:
+  - title: First step
+    description: The first step in your course
+    event: issues.assigned
+    link: '{{ repoUrl }}'
+    actions:
+      - type: closeIssue
